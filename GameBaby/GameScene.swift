@@ -1,11 +1,3 @@
-//
-//  GameScene.swift
-//  GameBaby
-//
-//  Created by Mohammad on 6/6/18.
-//  Copyright © 2018 Mohammad Mahjoub. All rights reserved.
-//
-
 import SpriteKit
 import GameplayKit
 
@@ -55,7 +47,6 @@ class GameScene: SKScene {
         self.addChild(ball3)
                 
     }
-    
     
     func touchDown(atPoint pos : CGPoint) {
         if let n = self.spinnyNode?.copy() as! SKShapeNode? {
